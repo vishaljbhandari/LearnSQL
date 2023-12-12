@@ -1,0 +1,2 @@
+CREATE USER vishal
+IDENTIFIED BY vishal;
