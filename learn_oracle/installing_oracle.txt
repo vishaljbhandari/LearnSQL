@@ -1,0 +1,2 @@
+https://www.oracle.com/database/technologies/oracle19c-windows-downloads.html
+https://www.oracle.com/database/sqldeveloper/technologies/download/
