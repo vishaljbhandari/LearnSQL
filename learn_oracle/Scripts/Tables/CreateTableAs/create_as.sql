@@ -9,4 +9,6 @@ AS (
 	FROM old_table
 );   
 
+New table is created from specified innert select query having exactly same schema and data
+
 */

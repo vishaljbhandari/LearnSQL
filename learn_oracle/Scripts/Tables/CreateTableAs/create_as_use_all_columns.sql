@@ -9,15 +9,15 @@ CREATE TABLE customers
 );  
 DESC customers;
 
-INSERT INTO customers VALUES (1, "Prakash", "Bangalore");
-INSERT INTO customers VALUES (2, "Anil", "Lucknow");
-INSERT INTO customers VALUES (3, "Vijay", "Bangalore");
-INSERT INTO customers VALUES (4, "Suresh", "Mumbai");
-INSERT INTO customers VALUES (5, "Prakash", "Bangalore");
-INSERT INTO customers VALUES (6, "Ajit", "Delhi");
-INSERT INTO customers VALUES (7, "Rama", "Chennai");
-INSERT INTO customers VALUES (8, "Krishna", "Nagpur");
-INSERT INTO customers VALUES (9, "Sunita", "Jaipur");
+INSERT INTO customers VALUES (1, 'Prakash','Bangalore');
+INSERT INTO customers VALUES (2, 'Anil', 'Lucknow');
+INSERT INTO customers VALUES (3, 'Vijay', 'Bangalore');
+INSERT INTO customers VALUES (4, 'Suresh', 'Mumbai');
+INSERT INTO customers VALUES (5, 'Prakash', 'Bangalore');
+INSERT INTO customers VALUES (6, 'Ajit', 'Delhi');
+INSERT INTO customers VALUES (7, 'Rama', 'Chennai'); 
+INSERT INTO customers VALUES (8, 'Krishna', 'Nagpur');
+INSERT INTO customers VALUES (9, 'Sunita', 'Jaipur');
 
 SELECT * FROM customers;
 

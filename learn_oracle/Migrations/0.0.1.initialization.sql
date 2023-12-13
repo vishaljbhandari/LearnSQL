@@ -6,6 +6,7 @@ CREATE USER c##learn_oracle IDENTIFIED BY password;
 
 /* Granting Required Privileges  */
 GRANT CONNECT, RESOURCE TO c##learn_oracle;
+ALTER USER c##learn_oracle quota 100M on USERS;
 
 -- CONNECT c##learn_oracle/password
 -- SHOW USER; 
