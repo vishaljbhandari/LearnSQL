@@ -98,5 +98,16 @@ ALTER TABLE customers ENABLE  CONSTRAINT customers_pk;
 */
 ALTER TABLE customers DROP CONSTRAINT customers_pk;  
 
+/* Creating primary key on more than one columns */
+CREATE TABLE customers  
+( 	customer_id number(10) NOT NULL,  
+  	customer_name varchar2(50) NOT NULL,  
+  	city varchar2(50),  
+  	CONSTRAINT customers_pk PRIMARY KEY (customer_id, customer_name)  
+);  
+/* Now all combination of customer_id, customer_name must be unique */
+
+ALTER TABLE customers DROP CONSTRAINT customers_pk; 
+
 /* example clean up */
 DROP TABLE customers;
