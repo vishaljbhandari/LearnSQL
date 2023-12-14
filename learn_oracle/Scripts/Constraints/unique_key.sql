@@ -4,6 +4,8 @@
 	Both the UNIQUE and PRIMARY KEY constraints provide a guarantee for uniqueness for a column or set of columns.
 	A PRIMARY KEY constraint automatically has a UNIQUE constraint.
 	A table can have many UNIQUE constraints per table, but only one PRIMARY KEY constraint.
+	
+	The naming conventions for unique key constraints should have a "UQ_" prefix, followed by the table name, followed by the column name. The syntax for a unique constraint should be "UQ_<TableName>_<ColumnName(s)>". (Upper case)
 */
 /* 
 	Adding Unique key constraint during creating table along with column

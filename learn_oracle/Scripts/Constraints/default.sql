@@ -2,6 +2,8 @@
 	DEFAULT Constraint
 	used to set a default value for a column.
 	The default value will be added to all new records, if no other value is specified.
+	
+	 The naming convension for a unique constraint should be "DF_<TableName>_<ColumnName>". (Upper case)
 */
 /* 
 	DEFAULT on CREATE TABLE

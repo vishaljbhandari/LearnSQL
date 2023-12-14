@@ -6,6 +6,7 @@
 	A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
 	The table with the foreign key is called the child table, and the table with the primary key is called the referenced or parent table.
 
+	The naming conventions for a foreign key constraint should have an "FK_" prefix, followed by the target table name, followed by the source table name. The syntax should be "FK_<TargetTable>_<SourceTable>". (Upper case)
 */
 /* 
 	FOREIGN KEY on CREATE TABLE

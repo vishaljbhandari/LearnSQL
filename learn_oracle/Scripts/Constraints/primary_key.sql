@@ -15,6 +15,9 @@
 	  ...  
 	  CONSTRAINT constraint_name PRIMARY KEY (column1, column2, ... column_n)  
 	);  
+	
+	The naming conventions for a primary key constraint should have a "PK_" prefix, followed by the table name in upper case. 
+	The syntax should be "PK_<TableName>_<ColumnName>".
 */
 CREATE TABLE customers  
 ( 	customer_id number(10) NOT NULL,  

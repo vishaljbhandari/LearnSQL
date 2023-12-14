@@ -4,6 +4,8 @@
 	If you define a CHECK constraint on a column it 
 		will allow only certain values for this column.
 		can limit the values in certain columns based on values in other columns in the row.
+	
+	The naming convension for a check constraint should be "CHK_<TableName>_<ColumnName>". (Upper case)
 */
 /* 
 	CHECK on CREATE TABLE
