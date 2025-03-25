@@ -1,4 +1,5 @@
 -- Comments are used to explain sections of SQL statements, or to prevent execution of SQL statements.
+-- Comments are generally used in .sql files (migration files)
 
 
 -- Single Line Comments
@@ -8,6 +9,7 @@
 -- Multi-line Comments
 -- start with /* and end with */.
 -- Any text between /* and */ will be ignored.
+
 
 
 SELECT * FROM Customers -- WHERE City='Berlin';
